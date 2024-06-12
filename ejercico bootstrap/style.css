@@ -1,0 +1,246 @@
+/* Estilo general para el menú de navegación */
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Estilo para los elementos de navegación */
+  .nav-item {
+    float: left;
+  }
+  
+  /* Estilo para los enlaces de navegación */
+  .nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Estilo para el enlace activo */
+  .nav-link.active, .nav-link:hover {
+    background-color: #4CAF50;
+  }
+  
+  /* Estilo para el menú desplegable */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(255, 255, 255);
+  }
+  
+  .dropdown-menu a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f1f1f1
+  }
+  
+  /* Estilo para el separador del menú desplegable */
+  .dropdown-divider {
+    border-top: 1px solid #ddd
+  }
+  
+  /* Estilo para el enlace deshabilitado */
+  .nav-link.disabled, .nav-link[aria-disabled="true"] {
+    color: #999999;
+  }
+
+  /* Estilo general para la tarjeta */
+.card {
+    width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(255, 254, 254, 0.96);
+    transition: 0.3s;
+  }
+  
+  /* Estilo para la imagen de la tarjeta */
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilo para el título de la tarjeta */
+  .card-title {
+    color: #007bff;
+  }
+  
+  /* Estilo para el texto de la tarjeta */
+  .card-text {
+    color: #6c757d;
+  }
+  
+  /* Estilo para el botón de la tarjeta */
+  .btn {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+
+  /*registro*/
+  /* Estilo general para el formulario */
+form {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  /* Estilo para los campos de entrada */
+  .form-control {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ffffff;
+    border-radius: .25rem;
+  }
+  
+  /* Estilo para los campos de entrada con etiquetas */
+  .form-label {
+    display: block;
+    margin-bottom: .5rem;
+  }
+  
+  /* Estilos adicionales para el campo de correo electrónico */
+  #exampleInputEmail1 {
+    border-color: #ffffff;
+  }
+  
+  #exampleInputEmail1:focus {
+    border-color: #007bff;
+  }
+  
+  /* Estilos adicionales para el campo de contraseña */
+  #exampleInputPassword1 {
+    border-color: hwb(206 97% 0%);
+
+  }
+  
+  #exampleInputPassword1:focus {
+    border-color: #007bff;
+  }
+  
+  /* Estilo para el checkbox */
+  .form-check-input {
+    margin-right: .25rem;
+  }
+  
+  /* Estilo para el botón de envío */
+  .btn {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  body {
+    background-image: url('fondopaginaweb.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Para que el fondo se mantenga fijo mientras se desplaza la página */
+    /* Puedes añadir propiedades adicionales según tus preferencias */
+}
+
+/* Cambiar el color de letra para todas las etiquetas de formulario */
+form label,
+form input,
+form .form-text,
+form .form-check-label,
+form .btn {
+    color: #ffffff; /* Cambiar el color de letra aquí */
+}
+
+/* Opcional: Cambiar el color de letra para el texto del enlace */
+form .form-check-label a {
+    color: #007bff; /* Cambiar el color del enlace aquí */
+}
+
+/* Opcional: Cambiar el color de letra para los elementos de formulario deshabilitados */
+form input:disabled {
+    color: #999; /* Cambiar el color de letra de los elementos deshabilitados aquí */
+}
+
+
+/*css footer*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex-basis: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer-section h2 {
+    color: #fbf4f4;
+    color:#004085
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #f9f3f3;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background: #232222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-section.contact h2,
+.footer-section.contact p {
+    color: #ffffff; /* Cambia el color a azul */
+}
+
+.footer-section.contact i {
+    color: #FF0000; /* Cambia el color del ícono a rojo */
+}
+
